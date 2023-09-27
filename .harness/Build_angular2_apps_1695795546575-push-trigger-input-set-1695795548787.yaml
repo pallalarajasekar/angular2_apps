@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_angular2_apps_1695795546575-push-trigger-input-set
+  identifier: Build_angular2_apps_1695795546575pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_angular2_apps_1695795546575
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
